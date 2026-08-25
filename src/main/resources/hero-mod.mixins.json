@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "hero.modid.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"refmap": "hero-mod.refmap.json",
+	"mixins": [
+		"EntityMixin",
+		"EntityInvoker",
+		"EntityPassengerPosMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
